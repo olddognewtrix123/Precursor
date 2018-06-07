@@ -1,0 +1,159 @@
+html, body{
+  margin: 0;
+  height: 1200px;
+  overflow: hidden;
+}
+  
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+  
+#mainDiv{
+  width: 1600px;
+  height: 1600px;
+  margin: 0 auto;
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  text-align: center;
+  border: 2px solid #381F0B;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+  
+  
+#applicationGrid{
+  width: 960px;
+  float: right;
+  height: 700px;
+  padding-top: 0px;
+  margin: auto;
+  font-size: 0;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  background-color: purple;
+  text-align: center;
+  border: 2px solid #381F0B;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+  
+#talkerDiv{
+  width: 530px;
+  height: 650px;
+  float: left;
+  font-size: 180%;
+  padding-top: 50px;
+  margin-left: 50px;
+  background-image: linear-gradient(0deg, rgba(0,0,0,.6), rgba(0,0,0,.6)), url("https://lh6.googleusercontent.com/KufpOoeTViqaMIsv2MEogydXHHHbALGoDtdDmgDooutPM-8xe-imCuvxSOBLKh3oSoCVs0TOWzzPA8TIFRY7N7xxnCKBWS-wC1KaiWNnyrMcdlaBjmtowajDT2NGrZ1ZeNjTuVT8"  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-size: 8;
+  font: Book Antiqua;
+  padding-bottom: 5px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+#systemMessages{
+  
+  padding-top: 5px;
+
+  margin: auto;
+  font-size: 60;
+  color: white;
+
+  padding-bottom: 5px;
+  font: Book Antiqua;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-shadow: 0 0 10px purple;
+}
+  
+  
+#iHoldAllTheMessages{
+  
+  float: right;
+  padding-top: 45px;
+  margin: auto;
+  font-size: 8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-image: url('https://1.bp.blogspot.com/-SIj2h_RrYhk/WNuOeT8YKYI/AAAAAAAAMEo/2gHX1CNpfzcqh5nKaNYp2Ep1vkFbOPjpgCLcB/s320/scroll.gif');
+  text-align: center;
+  border: 2px solid #381F0B;
+  border-radius: 4px;
+
+}
+
+  
+#actionBox{
+  width: 20px;
+  height: 20px;
+  padding-top: 0px;
+  display: inline-block;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-bottom: 0px;
+}
+  
+#containerfooter {
+  background-color: blue;
+  color: lightblue;
+  text-align: center;
+  width: 100%;
+  height: 5%;
+  bottom: 0;
+  position: absolute;
+}
+#modalDialog{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#buttonsDiv{
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  background-color: grey;
+  text-align: center;
+  border: 2px solid #381F0B;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.normalBtn{
+  border: 2px solid #381F0B;
+  border-radius: 4px;
+  background-color: white;
+}
+
+  
+.normalBtn.selected{
+  border: 2px solid #381F0B;
+  border-radius: 4px;
+  background-color: lightblue;
+}
+
+
+ 
+  
+
+  
+
+	 
